@@ -51,9 +51,9 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Design</h3>
+                <h3 className="qualification__title">FullStack Developer</h3>
                 <span className="qualification__subtitle">
-                  Spain - Insitute
+                  4 Geeks Academy
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2022 - Present
@@ -75,9 +75,9 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">Art director</h3>
+                <h3 className="qualification__title">FullStack</h3>
                 <span className="qualification__subtitle">
-                  Spain - Insitute
+                  Open Bootcamp
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2022 - Present
@@ -87,12 +87,12 @@ const Qualification = () => {
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Development</h3>
+                <h3 className="qualification__title">Expert React Native</h3>
                 <span className="qualification__subtitle">
-                  Spain - Insitute
+                  Udemy
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2022 - Present
+                  <i className="uil uil-calendar-alt"></i> 2022
                 </div>
               </div>
 
@@ -111,9 +111,9 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">UX Expert</h3>
+                <h3 className="qualification__title">Angular</h3>
                 <span className="qualification__subtitle">
-                  Spain - Insitute
+                  Udemy
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2017 - 2018
@@ -129,14 +129,35 @@ const Qualification = () => {
                 : "qualification__content"
             }
           >
-            <div className="qualification__data">
+
+<div className="qualification__data">
+              <div></div>
+
               <div>
-                <h3 className="qualification__title">Product Designer</h3>
+                <span className="qualification__rounder"></span>
+                <div className="qualification__line"></div>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">Web designer</h3>
                 <span className="qualification__subtitle">
-                  Microsoft - Spain
+                  Freelance
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2022 - Present
+                  <i className="uil uil-calendar-alt"></i> 2021-present
+                </div>
+              </div>
+
+             
+            </div>
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Photograph</h3>
+                <span className="qualification__subtitle">
+                  E.A. Ministerio de Defensa
+                </span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"></i> 2005 - Present
                 </div>
               </div>
 
@@ -155,12 +176,12 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">UX Designer</h3>
+                <h3 className="qualification__title">Graphic design</h3>
                 <span className="qualification__subtitle">
-                  Apple Inc - Spain
+                  E.A. Ministerio de Defensa
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2022 - Present
+                  <i className="uil uil-calendar-alt"></i> 2005 - Present
                 </div>
               </div>
 
@@ -169,10 +190,10 @@ const Qualification = () => {
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Designer</h3>
-                <span className="qualification__subtitle">Figma - Spain</span>
+                <h3 className="qualification__title">Photograph and design</h3>
+                <span className="qualification__subtitle">Imago Center</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2022 - Present
+                  <i className="uil uil-calendar-alt"></i> 2016-2019
                 </div>
               </div>
 
@@ -182,26 +203,7 @@ const Qualification = () => {
               </div>
             </div>
 
-            <div className="qualification__data">
-              <div></div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <div className="qualification__line"></div>
-              </div>
-
-              <div>
-                <h3 className="qualification__title">UX Expert</h3>
-                <span className="qualification__subtitle">
-                  Spain - Insitute
-                </span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2017 - 2018
-                </div>
-              </div>
-
-             
-            </div>
+            
           </div>
         </div>
       </div>

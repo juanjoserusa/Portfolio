@@ -55,10 +55,9 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="home__subtitle">Frontend Developer</h3>
+      <h3 className="home__subtitle">Full Stack Developer</h3>
       <p className="home__description">
-        I,m creative designer. I,m very passionate and dedicated to my work.
-      </p>
+      I am a full-stack developer with skills in front-end and back-end technologies. I enjoy solving complex challenges and delivering high-quality work.</p>
 
       <a href="#contact" className="button button--flex">
         Say Hello

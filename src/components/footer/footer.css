@@ -57,9 +57,6 @@
     font-size: var(--smaller-font-size);
 }
 
-
-/* BREAKPOINTS */
-/* For large devices */
 @media screen and (max-width : 992px){
     .footer__social-link {
         padding: 0.25rem;
@@ -68,14 +65,12 @@
     }
 }
 
-/* For medium devices */
 @media screen and (max-width : 768px){
 }
 
 @media screen and (max-width: 576px){
 }
 
-/* for small devices*/
 @media screen and (max-width: 350px) {
 }
 

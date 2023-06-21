@@ -1,52 +1,74 @@
-import Work1 from '../../assets/work1.jpg'
-import Work2 from '../../assets/work2.jpg'
-import Work3 from '../../assets/work3.jpg'
-import Work4 from '../../assets/work4.jpg'
-import Work5 from '../../assets/work5.jpg'
+import Work1 from '../../assets/work.jpg'
+import Work2 from '../../assets/presu.jpg'
+import Work3 from '../../assets/veterinario.png'
+import Work4 from '../../assets/tiendaonline.png'
+import Work6 from '../../assets/beautycare.png'
+import Work9 from '../../assets/cripto.jpg'
+
+
 
 
 
 export const projectsData =[
+    // {
+    //     id: 1,
+    //     image: Work1,
+    //     title: 'Title 1',
+    //     category: 'react native',
+    // },
     {
-        id: 1,
-        image: Work1,
-        title: 'Title 1',
-        category: 'react native',
+        id:1,
+        image: Work6,
+        title: 'Beauty Care (Tienda Online)',
+        category: 'react',
+        url: 'https://beautycare-6gb.pages.dev/'
+    },{
+        id: 2,
+        image: Work3,
+        title: 'Planificador de citas de veterinario',
+        category: 'React',
+        url: 'https://citasveterinariojuanjoserusa.netlify.app/'
     },
     {
-        id: 2,
-        image: Work2,
-        title: 'Title 2',
-        category: 'react',
-    },{
         id: 3,
-        image: Work3,
-        title: 'Title 3',
-        category: 'react',
+        image: Work1,
+        title: 'Web para consultar meteorologia',
+        category: 'React',
+        url: 'https://meteosapp.netlify.app'
     },{
         id: 4,
         image: Work4,
-        title: 'Title 4',
-        category: 'design',
+        title: 'Tienda online',
+        category: 'react',
     },{
         id: 5,
-        image: Work5,
-        title: 'Title 5',
-        category: 'react native',
+        image: Work2,
+        title: 'Gestion de presupuestos',
+        category: 'React',
+        url: 'https://presupuestogastoreact.netlify.app'
+    },{
+        id: 8,
+        image: Work9,
+        title: 'Cotizador de criptomonedas',
+        category: 'React',
+        url: 'https://criptobromonedas.netlify.app'
     },
+    
+    
+    
 ];
 
 export const projectNav = [
-    {
-        name:'all',
-    },
+    // {
+    //     name:'all',
+    // },
     {
         name:'react',
     },
-    {
-        name:'react native',
-    },
-    {
-        name:'design',
-    },
+    // {
+    //     name:'react native',
+    // },
+    // {
+    //     name:'design',
+    // },
 ];

@@ -1,5 +1,5 @@
 .skills__container {
-    grid-template-columns: repeat(2, 350px);
+    grid-template-columns: repeat(2, 450px);
     column-gap: 3rem;
     justify-content: center;
 
@@ -53,8 +53,6 @@
 }
 
 
-/* BREAKPOINTS */
-/* For large devices */
 @media screen and (max-width : 992px){
     .skills__container {
         grid-template-columns:  max-content;
@@ -62,7 +60,7 @@
     }
 }
 
-/* For medium devices */
+
 
 @media screen and (max-width: 576px){
     .skills__container{
@@ -75,7 +73,6 @@
 
 }
 
-/* for small devices*/
 @media screen and (max-width: 350px) {
     .skills__box {
         column-gap: 1.25rem;

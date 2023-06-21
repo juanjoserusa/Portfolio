@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 
-/* VARIABLES CSS */
 
 :root {
     --header-height: 3rem;
 
 
-/*  COLORS */
+
 
 --hue: 0;
 --sat : 0%;
@@ -18,11 +17,9 @@
 --container-color : #fff;
 
 
-/*  BODY FONTS*/
+
 
 font-family: 'Poppins', sans-serif;
-
-/* .5rem = 8px | 1rem = 16px ... */
 
 --big-font-size: 3.5rem;
 --h1-font-size: 2.25rem;
@@ -33,14 +30,12 @@ font-family: 'Poppins', sans-serif;
 --smaller-font-size: 0.813rem;
 --tiny-font-size: 0.625rem;
 
-/*  FONT WEIGHT   */
+
 --font-normal : 400;
 --font-medium: 500;
 --font-semi-bold: 600;
 
-/* MARGENES BOTTOM */
 
-/* .5rem = 8px | 1rem = 16px ... */
 
 --mb-0-25: 0.25rem;
 --mb-0-5: 0.5rem;
@@ -52,7 +47,7 @@ font-family: 'Poppins', sans-serif;
 --mb-3: 3rem;
 
 
-/* Z INDEX */
+
 
 --z-tooltip:10;
 --z-fixed:100;
@@ -60,7 +55,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 
-/* RESPONSIVE TYPOGRAPHY */
+
 
 @media screen and (max-width: 992px){
     :root{
@@ -74,7 +69,7 @@ font-family: 'Poppins', sans-serif;
     }
 }
 
-/* BASE */
+
 * {
     margin: 0;
     padding: 0;
@@ -124,7 +119,7 @@ img{
 
 
 
-/* REUSABLE CSS CLASSES */
+
 
 .section {
     padding: 6rem 0 2rem;
@@ -146,7 +141,7 @@ img{
     text-align: center;
 }
 
-/* LAYOUT */
+
 
 .container {
     max-width: 968px;
@@ -159,7 +154,7 @@ img{
     gap: 1.5rem;
 }
 
-/* BUTTONS */
+
 
 .button {
     display: inline-block;
@@ -184,8 +179,7 @@ img{
     
 }
 
-/* BREAKPOINTS */
-/* For large devices */
+
 @media screen and (max-width : 992px){
     .container {
         margin-left: var(--mb-1-5);
@@ -202,7 +196,7 @@ img{
     }
 }
 
-/* For medium devices */
+
 @media screen and (max-width : 768px){
 
     body {
@@ -222,7 +216,7 @@ img{
 
 }
 
-/* for small devices*/
+
 @media screen and (max-width: 350px) {
 
     :root {

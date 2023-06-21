@@ -114,8 +114,6 @@
     color: var(--title-color);
 }
 
-/* BREAKPOINTS */
-/* For large devices */
 @media screen and (max-width: 992px){
     .home__content {
         grid-template-columns: 100px repeat(2, 1fr);
@@ -153,7 +151,7 @@
     }
 }
 
-/* For medium devices */
+
 @media screen and (max-width: 768px){
     .home__content {
         grid-template-columns: 0.5fr 3fr; 
@@ -181,7 +179,7 @@
 }
 
 
-/* for small devices*/
+
 @media screen and (max-width: 350px) {
 
     .home__img {

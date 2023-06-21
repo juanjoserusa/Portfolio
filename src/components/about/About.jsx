@@ -1,7 +1,8 @@
 import React from 'react';
 import './about.css';
+
 import AboutImg from '../../assets/profile2.JPG'
-import CV from "../../assets/JuanjoCV.pdf"
+import CV from "../../assets/Juanjose.pdf"
 import Info from './Info';
 
 const About = () => {
@@ -11,16 +12,16 @@ const About = () => {
         <span className='section__subtitle'>My introduction</span>
 
         <div className='about__container container grid'>
-            <img src={AboutImg} alt="" className='about__img' />
+            {/* <img src={AboutImg} alt="" className='about__img' /> */}
 
             <div className='about__data'>
                 <Info />
 
                 <p className='about__description'>
-                    Frontend developer, I create web pages with UI / UX user Interface, I have years of experience and many clients are happy with the projects carried out.
+                I am a full-stack developer with experience in developing and deploying web applications. My expertise covers a wide range of technologies, including front-end frameworks such as React, and back-end languages like Node.js. I have a passion for coding and love to work on complex and challenging projects. With a solid understanding of software development principles and a commitment to delivering high-quality work, I am confident in my ability to contribute to any project.
                 </p>
 
-                <a download="" href={CV} className='button button--flex>'>Download CV
+                <a download="" href={CV} className='button button--flex boton'>Download CV
                 <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
